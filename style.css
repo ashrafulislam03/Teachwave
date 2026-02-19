@@ -97,6 +97,10 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+.togol-button{
+  display: none;
+}
+
 /* hero section */
 
 .hero {
@@ -316,6 +320,24 @@ a {
 }
 
 @media screen and (max-width: 440px) {
+
+  .logo{
+    font-size: 1.5rem;
+  }
+
+  .menu , .btn{
+    display: none;
+  }
+
+  .hero-btn{
+    display: block;
+    margin: 10px auto;
+  }
+
+  .togol-button{
+    display: block;
+  }
+
   .choose-container {
     width: 85%;
     grid-template-columns: 385px;
@@ -328,6 +350,10 @@ a {
       "choose-box-5";
   }
 
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .feature-container {
     width: 85%;
     margin: 0 auto;
@@ -335,16 +361,28 @@ a {
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
   }
+
   .second-feature-container {
-    width: 85%;
-    margin: 0 auto;
-    padding-top: 50px;
+    margin: 0px auto;
+    padding: 20px 15px 20px 30px;
   }
 
   .host {
     width: 80%;
     display: flex;
     flex-direction: column;
-    padding: 50px;
   }
+
+  footer{
+    width: 100%;
+  }
+  .links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 0;
+  }
+  
+.copyright {
+  width: 85%;
+}
 }
