@@ -143,11 +143,12 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.about-title {
+.title {
   color: white;
   font-size: 2.5rem;
   font-weight: 800;
-  padding: 50px 0 0 16px;
+  padding: 50px 0 16px;
+  margin: 0 auto;
 }
 
 .cards {
@@ -161,4 +162,122 @@ nav a:hover {
 .box-title {
   font-size: 3rem;
   color: #00ff88;
+}
+
+/* choose-section */
+.choose-section{
+  background: #230E3D;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.choose-header{
+  margin-bottom: 40px;
+}
+
+.choose-box{
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+  padding: 40px ;
+  text-align: left;
+  
+  
+}
+.choose-title{
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.choose-container{
+  width: 82%;
+  margin: 0 auto;
+  gap: 30px;
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px 240px;
+  grid-template-rows: 225px 225px 273px;
+  grid-template-areas: "choose-box-1 choose-box-1 choose-box-2 choose-box-2 choose-box-2 "
+  "choose-box-1 choose-box-1 choose-box-3 choose-box-3 choose-box-3 "
+  "choose-box-4 choose-box-4  choose-box-4 choose-box-5 choose-box-5";
+  
+}
+
+
+/*  */
+.feature-title{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.feature-section{
+  background-color: #1A0B2E;
+}
+
+.feature-container{
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.videos{
+  width: 380px;
+  height: 440px;
+  background-color: #250D44;
+  border-radius: 20px;
+}
+
+iframe{
+  width: 100%;
+  height: 214px;
+}
+
+.video-des{
+  padding: 24px;
+}
+
+.video-title{
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.time{
+  color: #00ff88;
+  font-size: 1rem;
+  display: inline-flex;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.second-feature-container{
+  width: 80%;
+  margin: 120px auto;
+  padding-bottom: 120px ;
+}
+
+.host{
+  background-color: #230E3D;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.host-name{
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.icons{
+margin-top: 16px;
 }
