@@ -357,10 +357,15 @@ a {
 
 
   .feature-container {
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
   grid-template-columns: repeat(1, 1fr);
-  gap: 30px;
+  gap: 20px;
+}
+
+.videos{
+  width: 100%;
+  height: auto;
 }
 
   .second-feature-container {
