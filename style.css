@@ -330,7 +330,7 @@ a {
   }
 
   .hero-btn{
-    display: block;
+    display: inline-flex;
     margin: 10px auto;
   }
 
